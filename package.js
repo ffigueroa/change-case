@@ -11,8 +11,8 @@ Npm.depends({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
-  api.addFiles('konecty:change-case.js', ['server']);
-  api.export(['changeCase'], ['server']);
+  api.addFiles('konecty:change-case.js');
+  api.export(['changeCase']);
 });
 
 Package.onTest(function(api) {
